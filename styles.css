@@ -295,7 +295,9 @@ section.intro-section {
     margin: 0;
 }
 
-
+#section1{
+    height:2000px
+}
 
 .intro-content {
     margin-top: -8rem;
@@ -975,13 +977,16 @@ section.intro-section h2 {
         height: 90%;
         margin: 4rem 4rem 0rem 0rem;
     }
-
+.container{
+    
+    position: absolute;
+}
 
     .intro-text-1 {
         font-size: 50px;
+        
     }
-
-    #text-container {
+  #text-container {
         font-size: 55px;
     }
 
@@ -994,7 +999,9 @@ section.intro-section h2 {
         overflow-y: hidden;
 
     }
-
+    .intro-imgage-1{
+        overflow: hidden;
+    }
     .button-1 {
         width: 74rem;
         height: 7rem;
@@ -1187,9 +1194,10 @@ width: 23rem ;
 }
 .class-edu-txt{
     margin: 23rem 1rem 0rem 1rem;
-    width: 97.4%;
+    width:auto;
     font-size: 2.5935rem;
     text-align: justify;
+    overflow-y: hidden;
 }
 
 
