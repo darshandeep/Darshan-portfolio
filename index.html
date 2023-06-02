@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fullpage.css">
+
+
+
+
+
+</head>
+
+<body>
+    <div class="loader-wrapper">
+        <div class="loader">
+            <span class="loader-inner"></span>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+
+    <header class="navbar" id="navbar">
+        <div class="header-content">
+            <div class="logo">
+                <h1>Darshan Portfolio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a id="nav-btns" class="home" href="#">Home</a></li>
+                    <li><a id="nav-btns" class="project" href="#">Project</a></li>
+                    <li><a id="nav-btns" class="skills" href="#">Skills</a></li>
+                    <li><a id="nav-btns" class="education" href="#">Education</a></li>
+                    <li><a id="nav-btns" class="contact" href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="01-dash" style="width:100%;background-color:#cc79ff;height:.2rem;margin-top:0"></div>
+    </header>
+    <div style="position:relative" class="container">
+        <div style="scroll-snap-align:start;height:100vh" id="section1" class="section1">
+            <section id="intro-section" class="intro-section">
+                <div class="intro-content">
+                    <div class="intro-text-1">
+                        <h2 id="typing-effect"></h2>
+                        <p class="passionate-text"></p>
+                        
+                        <div class="space">Hi,My name is</div>
+                        <div class="space" style="color:#ab6ce4">Darshan</div>
+                        <div class="space">and I am a</div>
+                        <div class="space">passionate</div>
+                        <div id="text-container" style="color:#ab6ce4;position:absolute;"></div>
+                        <span
+                            id="typing-cursor">
+                        </span>
+
+
+                        <div class="buttons">
+                            <button onclick="downloadPDF()" class="button-1 ">Download Resume</button>
+
+                            <a target="_blank" href="https://github.com/darshandeep" class="button-2"
+                                style="text-decoration: none; "> Visit GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="intro-image"><img class="intro-imgage-1" src="photos/bg.png"
+                            alt="Computer Programmer Image"></div>
+                </div>
+            </section>
+        </div>
+        <hr style="background-color:#6607cc;margin:-.3rem;width:100%;margin-left:.01rem" id="white-proj-hr">
+
+
+
+        <div style="scroll-snap-align:start;margin-top:2rem" id="section2" class="section2">
+            <div style="background-color:rgba(19,19,60,.375)" id="projects-2" class="projects-2">
+                <div class="projects-2-title-div">
+                    <h1 class="projects-2-title">Projects</h1>
+                </div>
+                <div class="projects-2-banners-div">
+                    <div class="projects-2-banners-up">
+                        <div class="projects-2-banners-up-1"> <a target="_blank" href="https://ansh08.netlify.app"> <img class="projects-2-banners-up-1-img"
+                                src="photos/black-img-1.png" alt="p-1" srcset=""></a></div>
+                        <div class="projects-2-banners-up-2"><a target="_blank" href="https://ansh09.netlify.app"><img class="projects-2-banners-up-2-img"
+                                src="photos/white-img-1.png" alt="p-2" srcset=""></a></div>
+                    </div>
+                    <div class="projects-2-banners-up">
+                        <div class="projects-2-banners-down-1"><a target="_blank"  href="https://ansh08.netlify.app"><img class="projects-2-banners-up-1-img"
+                                src="photos/black-img-1.png" alt="p-1" srcset=""></a></div>
+                        <div class="projects-2-banners-down-2"><a target="_blank" href="https://ansh09.netlify.app"><img class="projects-2-banners-up-2-img"
+                                src="photos/white-img-1.png" alt="p-2" srcset=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top:-1rem" class="borders">
+            <hr style="border-color:#6607cc;height:116.8%" class="hr-ver-left">
+            <div class="hr-ver-right-align"></div>
+        </div>
+        <div style="scroll-snap-align:start" id="section3" class="section3">
+            <div>
+                <h1 style="padding:0;margin-top:1rem;margin-bottom:0" class="part4-title">SKILLS</h1>
+            </div>
+            <div style="margin-top:6rem" class="skills-cnt">
+                <div class="box-card">
+                    <div class="box1">
+                        <div id="card1-1" class="card1">
+                            <div class="img-card1">
+                                <p id="imgt-1" class="imgt"><img src="photos/graphic-design.jpg" width=" 100%"
+                                        height="100%" alt="404"></p>
+                            </div>
+                            <p class="txt-card1">Web design</p>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="card1">
+                            <div class="img-card1">
+                                <p id="imgt-2" class="imgt"><img src="photos/interior-design-20.jpg" width=" 100%"
+                                        height="100%" alt="404"></p>
+                            </div>
+                            <p class="txt-card1">Interior Design</p>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="card1">
+                            <div class="img-card1">
+                                <p id="imgt-3" class="imgt"><img src="photos/marketing.jpg" width=" 100%" height="100%"
+                                        alt="404">
+                                </p>
+                            </div>
+                            <p class="txt-card1">Marketing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="greycolor-bg-row2">
+                    <div class="box-card">
+                        <div class="box1">
+                            <div class="card1">
+                                <div class="img-card1">
+                                    <p id="imgt-4" class="imgt"><img src="photos/photography-1.jpg" width=" 100%"
+                                            height="100%" alt="404"></p>
+                                </div>
+                                <p class="txt-card1">Photography</p>
+                            </div>
+                        </div>
+                        <div class="box1">
+                            <div class="card1">
+                                <div class="img-card1">
+                                    <p id="imgt-5" class="imgt"><img src="photos/project-management.jpg" width=" 100%"
+                                            height="100%" alt="404"></p>
+                                </div>
+                                <p class="txt-card1">Project Management</p>
+                            </div>
+                        </div>
+                        <div class="box1">
+                            <div class="card1">
+                                <div class="img-card1">
+                                    <p id="imgt-6" class="imgt"><img src="photos/tech-coding-20.jpg" width=" 100%"
+                                            height="100%" alt="404"></p>
+                                </div>
+                                <p class="txt-card1">Coding</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="hr-hor" style="margin-top:6rem;width:100%;border-style:dotted">
+
+
+        <div style="scroll-snap-align:start;" id="section4" class="section">
+            <div class="borders">
+                <div style="margin-right:-.5rem" class="hr-ver-right-align"></div>
+            </div>
+        
+        <div class="education-div">
+            <div class="education-div-title">
+                <h1 class="education-div-title-txt">EDUCATION</h1>
+            </div>
+            <hr style="border:.3rem solid rgba(67,66,67,.23)">
+            <div class="years-div-flex">
+                <h1 class="y-2023" style="color:#470d51">2023-25</h1>
+                <div class="class-edu-img"><img class="class-edu-img-1" src="photos/N clg.png" alt="error" srcset="">
+                </div>
+                <p class="class-edu-txt"><span><b>I</b></span> <span><b>a</b>m</span> <span><b>curre</b>ntly</span>
+                    <span><b>purs</b>uing</span> <span><b>a</b></span> <span><b>Comp</b>uter</span>
+                    <span><b>Progra</b>mming</span> <span><b>cou</b>rse</span> <span><b>a</b>t</span>
+                    <span><b>Niag</b>ara</span> <span><b>Coll</b>ege,</span> <span><b>whe</b>re</span>
+                    <span><b>I</b></span> <span><b>a</b>m</span> <span><b>gain</b>ing</span>
+                    <span><b>compreh</b>ensive</span> <span><b>knowl</b>edge</span> <span><b>an</b>d</span>
+                    <span><b>pract</b>ical</span> <span><b>ski</b>lls</span> <span><b>i</b>n</span>
+                    <span><b>vari</b>ous</span> <span><b>progra</b>mming</span> <span><b>langu</b>ages,</span>
+                    <span><b>we</b>b</span> <span><b>develo</b>pment,</span> <span><b>soft</b>ware</span>
+                    <span><b>develo</b>pment,</span> <span><b>an</b>d</span> <span><b>problem-</b>solving.</span>
+                    <span><b>Wi</b>th</span> <span><b>a</b></span> <span><b>str</b>ong</span>
+                    <span><b>foc</b>us</span> <span><b>ontea</b>mwork</span> <span><b>an</b>d</span>
+                    <span><b>collabo</b>ration,</span> <span><b>Iha</b>ve</span>
+                    <span><b>activelypar</b>ticipating</span> <span><b>i</b>n</span> <span><b>gro</b>up</span>
+                    <span><b>proje</b>cts,</span> <span><b>effect</b>ively</span> <span><b>contri</b>buting</span>
+                    <span><b>t</b>o</span> <span><b>th</b>e</span> <span><b>succe</b>ssful</span>
+                    <span><b>compl</b>etion</span> <span><b>o</b>f</span> <span><b>assign</b>ments.</span>
+                    <span><b>Additio</b>nally,</span> <span><b>m</b>y</span> <span><b>conti</b>nuous</span>
+                    <span><b>dri</b>ve</span> <span><b>fo</b>r</span> <span><b>lear</b>ning</span>
+                    <span><b>an</b>d</span> <span><b>stay</b>ing</span> <span><b>up-to</b>-date</span>
+                    <span><b>wi</b>th</span> <span><b>emer</b>ging</span> <span><b>techno</b>logies</span>
+                    <span><b>ensu</b>res</span> <span><b>th</b>at</span> <span><b>Ia</b>m</span>
+                    <span><b>well-eq</b>uipped</span> <span><b>to ta</b>ckle</span> <span><b>comp</b>lex</span>
+                    <span><b>cod</b>ing</span> <span><b>challe</b>nges.</span>
+                </p>
+            </div>
+            <hr class="edu-hr" style="position:relative;margin-left:28rem;height:40rem;margin-top:-40.5rem">
+        </div>
+</div>
+
+
+        <div style="scroll-snap-align:start;" id="section5" class="section">
+            <div class="p4-all">
+                <div style="overflow-y: hidden;" id="newsletter-box" class="newsletter-box">
+                    <div class="news-text-left">
+                        <div style="color:#261468;" class="news-text-left-header">want to contact me?</div>
+                        <div class="news-text-left-para">Every month in your inbox, learn the easy wins to help improve
+                            accessibility, whether you're a designer or just trying to do your best in your
+                            organisation.</div>
+                    </div>
+
+
+
+
+
+                    <form name="contactform" class="news-btn-right">
+
+
+                        <textarea id="comments" class="email-btn" class="email-btn-cnt" name="message"
+                            placeholder="Message"></textarea>
+
+
+                        <button method="post" type="submit" style="  background-color: #000;
+                        color: white;
+                        
+                        border:#6607cc 4px solid;" class="signup-btn-news">SEND</button>
+
+
+                    </form>
+
+                </div>
+
+                <div class="last-fotter">
+                    <div class="last-fotter-left">
+                        <div class="last-fotter-left-header"> DARSHAN 2023 </div>
+                    </div>
+                    <div class="last-fotter-right" style="display:flex;flex-direction:row;">
+                        <div> <a target="_blank" href="https://www.linkedin.com/in/darshandeep-singh-8a341b278/"
+                                class="last-fotter-right-para1">Linkedin</a></div>
+                        <div><a href="mailto:darshandeepmi@gmail.com" class="last-fotter-right-para2">Email</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwh0_Q7FP-bBYekRdp1t082CRvbMmp1GLuzF4CCKmemQYMZUIwY8cj_HYI6aL51-EksdQ/exec'
+        const form = document.forms['contactform']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => alert("Thank you! your message have arrived successfully."))
+                .then(() => { window.location.reload(); })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+</body>
+
+</html>
