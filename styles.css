@@ -1233,7 +1233,8 @@ section.intro-section h2 {
     .class-edu-txt {
         margin: 23rem 1rem 0rem 1rem;
         width: auto;
-        font-size: 2.5935rem;
+        
+        font-size: 3rem;
         text-align: justify;
         overflow-y: hidden;
     }
