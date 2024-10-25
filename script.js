@@ -9,7 +9,7 @@ let t = document.querySelector("#section5"); t && t.scrollIntoView({ scrollOptio
 
 function downloadPDF() {
     var link = document.createElement('a');
-    link.href = 'files/T-resume-all.pdf';
+    link.href = 'files/new-Tech-OCT15.pdf';
     link.download = 'Darshan-Resume.pdf';
     link.click();
   }
